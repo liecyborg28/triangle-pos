@@ -4,87 +4,87 @@ return [
 
     /*
      *
-     * Shared translations.
+     * Terjemahan yang dibagikan.
      *
      */
     'title' => 'Triangle POS',
-    'next' => 'Next Step',
-    'back' => 'Previous',
-    'finish' => 'Install',
+    'next' => 'Langkah Berikutnya',
+    'back' => 'Sebelumnya',
+    'finish' => 'Pasang',
     'forms' => [
-        'errorTitle' => 'The Following errors occurred:',
+        'errorTitle' => 'Kesalahan berikut terjadi:',
     ],
 
     /*
      *
-     * Home page translations.
+     * Terjemahan halaman beranda.
      *
      */
     'welcome' => [
-        'templateTitle' => 'Welcome',
-        'title'   => 'Install Triangle POS',
-        'message' => 'Easy Installation and Setup Wizard.',
-        'next'    => 'Check Requirements',
+        'templateTitle' => 'Selamat Datang',
+        'title'   => 'Pasang Triangle POS',
+        'message' => 'Wizard Instalasi dan Pengaturan yang Mudah.',
+        'next'    => 'Periksa Persyaratan',
     ],
 
     /*
      *
-     * Requirements page translations.
+     * Terjemahan halaman persyaratan.
      *
      */
     'requirements' => [
-        'templateTitle' => 'Step 1 | Server Requirements',
-        'title' => 'Server Requirements',
-        'next'    => 'Check Permissions',
+        'templateTitle' => 'Langkah 1 | Persyaratan Server',
+        'title' => 'Persyaratan Server',
+        'next'    => 'Periksa Izin',
     ],
 
     /*
      *
-     * Permissions page translations.
+     * Terjemahan halaman izin.
      *
      */
     'permissions' => [
-        'templateTitle' => 'Step 2 | Permissions',
-        'title' => 'Permissions',
-        'next' => 'Configure Environment',
+        'templateTitle' => 'Langkah 2 | Izin',
+        'title' => 'Izin',
+        'next' => 'Konfigurasi Lingkungan',
     ],
 
     /*
      *
-     * Environment page translations.
+     * Terjemahan halaman lingkungan.
      *
      */
     'environment' => [
         'menu' => [
-            'templateTitle' => 'Step 3 | Environment Settings',
-            'title' => 'Environment Settings',
-            'desc' => 'Please select how you want to configure the apps <code>.env</code> file.',
-            'wizard-button' => 'Form Wizard Setup',
-            'classic-button' => 'Classic Text Editor',
+            'templateTitle' => 'Langkah 3 | Pengaturan Lingkungan',
+            'title' => 'Pengaturan Lingkungan',
+            'desc' => 'Silakan pilih bagaimana Anda ingin mengkonfigurasi file <code>.env</code> aplikasi.',
+            'wizard-button' => 'Pengaturan Wizard Formulir',
+            'classic-button' => 'Editor Teks Klasik',
         ],
         'wizard' => [
-            'templateTitle' => 'Step 3 | Environment Settings | Guided Wizard',
-            'title' => 'Guided <code>.env</code> Wizard',
+            'templateTitle' => 'Langkah 3 | Pengaturan Lingkungan | Wizard Terpandu',
+            'title' => 'Wizard Terpandu <code>.env</code>',
             'tabs' => [
-                'environment' => 'Environment',
-                'database' => 'Database',
-                'application' => 'Application',
+                'environment' => 'Lingkungan',
+                'database' => 'Basis Data',
+                'application' => 'Aplikasi',
             ],
             'form' => [
-                'name_required' => 'An environment name is required.',
-                'app_name_label' => 'App Name',
-                'app_name_placeholder' => 'App Name',
-                'app_environment_label' => 'App Environment',
-                'app_environment_label_local' => 'Local',
-                'app_environment_label_developement' => 'Development',
-                'app_environment_label_qa' => 'Qa',
-                'app_environment_label_production' => 'Production',
-                'app_environment_label_other' => 'Other',
-                'app_environment_placeholder_other' => 'Enter your environment...',
-                'app_debug_label' => 'App Debug',
-                'app_debug_label_true' => 'True',
-                'app_debug_label_false' => 'False',
-                'app_log_level_label' => 'App Log Level',
+                'name_required' => 'Nama lingkungan diperlukan.',
+                'app_name_label' => 'Nama Aplikasi',
+                'app_name_placeholder' => 'Nama Aplikasi',
+                'app_environment_label' => 'Lingkungan Aplikasi',
+                'app_environment_label_local' => 'Lokal',
+                'app_environment_label_developement' => 'Pengembangan',
+                'app_environment_label_qa' => 'QA',
+                'app_environment_label_production' => 'Produksi',
+                'app_environment_label_other' => 'Lainnya',
+                'app_environment_placeholder_other' => 'Masukkan lingkungan Anda...',
+                'app_debug_label' => 'Debug Aplikasi',
+                'app_debug_label_true' => 'Ya',
+                'app_debug_label_false' => 'Tidak',
+                'app_log_level_label' => 'Tingkat Log Aplikasi',
                 'app_log_level_label_debug' => 'debug',
                 'app_log_level_label_info' => 'info',
                 'app_log_level_label_notice' => 'notice',
@@ -93,155 +93,135 @@ return [
                 'app_log_level_label_critical' => 'critical',
                 'app_log_level_label_alert' => 'alert',
                 'app_log_level_label_emergency' => 'emergency',
-                'app_url_label' => 'App Url',
-                'app_url_placeholder' => 'App Url',
-                'db_connection_failed' => 'Could not connect to the database.',
-                'db_connection_label' => 'Database Connection',
+                'app_url_label' => 'URL Aplikasi',
+                'app_url_placeholder' => 'URL Aplikasi',
+                'db_connection_failed' => 'Tidak dapat terhubung ke basis data.',
+                'db_connection_label' => 'Koneksi Basis Data',
                 'db_connection_label_mysql' => 'mysql',
                 'db_connection_label_sqlite' => 'sqlite',
                 'db_connection_label_pgsql' => 'pgsql',
                 'db_connection_label_sqlsrv' => 'sqlsrv',
-                'db_host_label' => 'Database Host',
-                'db_host_placeholder' => 'Database Host',
-                'db_port_label' => 'Database Port',
-                'db_port_placeholder' => 'Database Port',
-                'db_name_label' => 'Database Name',
-                'db_name_placeholder' => 'Database Name',
-                'db_username_label' => 'Database User Name',
-                'db_username_placeholder' => 'Database User Name',
-                'db_password_label' => 'Database Password',
-                'db_password_placeholder' => 'Database Password',
+                'db_host_label' => 'Host Basis Data',
+                'db_host_placeholder' => 'Host Basis Data',
+                'db_port_label' => 'Port Basis Data',
+                'db_port_placeholder' => 'Port Basis Data',
+                'db_name_label' => 'Nama Basis Data',
+                'db_name_placeholder' => 'Nama Basis Data',
+                'db_username_label' => 'Nama Pengguna Basis Data',
+                'db_username_placeholder' => 'Nama Pengguna Basis Data',
+                'db_password_label' => 'Kata Sandi Basis Data',
+                'db_password_placeholder' => 'Kata Sandi Basis Data',
 
                 'app_tabs' => [
-                    'more_info' => 'More Info',
-                    'broadcasting_title' => 'Broadcasting, Caching, Session, &amp; Queue',
-                    'broadcasting_label' => 'Broadcast Driver',
-                    'broadcasting_placeholder' => 'Broadcast Driver',
-                    'cache_label' => 'Cache Driver',
-                    'cache_placeholder' => 'Cache Driver',
-                    'session_label' => 'Session Driver',
-                    'session_placeholder' => 'Session Driver',
-                    'queue_label' => 'Queue Driver',
-                    'queue_placeholder' => 'Queue Driver',
-                    'redis_label' => 'Redis Driver',
-                    'redis_host' => 'Redis Host',
-                    'redis_password' => 'Redis Password',
-                    'redis_port' => 'Redis Port',
+                    'more_info' => 'Informasi Lebih Lanjut',
+                    'broadcasting_title' => 'Broadcasting, Cache, Sesi, &amp; Antrean',
+                    'broadcasting_label' => 'Driver Broadcast',
+                    'broadcasting_placeholder' => 'Driver Broadcast',
+                    'cache_label' => 'Driver Cache',
+                    'cache_placeholder' => 'Driver Cache',
+                    'session_label' => 'Driver Sesi',
+                    'session_placeholder' => 'Driver Sesi',
+                    'queue_label' => 'Driver Antrean',
+                    'queue_placeholder' => 'Driver Antrean',
+                    'redis_label' => 'Driver Redis',
+                    'redis_host' => 'Host Redis',
+                    'redis_password' => 'Kata Sandi Redis',
+                    'redis_port' => 'Port Redis',
 
-                    'mail_label' => 'Mail',
-                    'mail_driver_label' => 'Mail Driver',
-                    'mail_driver_placeholder' => 'Mail Driver',
-                    'mail_host_label' => 'Mail Host',
-                    'mail_host_placeholder' => 'Mail Host',
-                    'mail_port_label' => 'Mail Port',
-                    'mail_port_placeholder' => 'Mail Port',
-                    'mail_username_label' => 'Mail Username',
-                    'mail_username_placeholder' => 'Mail Username',
-                    'mail_password_label' => 'Mail Password',
-                    'mail_password_placeholder' => 'Mail Password',
-                    'mail_encryption_label' => 'Mail Encryption',
-                    'mail_encryption_placeholder' => 'Mail Encryption',
+                    'mail_label' => 'Email',
+                    'mail_driver_label' => 'Driver Email',
+                    'mail_driver_placeholder' => 'Driver Email',
+                    'mail_host_label' => 'Host Email',
+                    'mail_host_placeholder' => 'Host Email',
+                    'mail_port_label' => 'Port Email',
+                    'mail_port_placeholder' => 'Port Email',
+                    'mail_username_label' => 'Nama Pengguna Email',
+                    'mail_username_placeholder' => 'Nama Pengguna Email',
+                    'mail_password_label' => 'Kata Sandi Email',
+                    'mail_password_placeholder' => 'Kata Sandi Email',
+                    'mail_encryption_label' => 'Enkripsi Email',
+                    'mail_encryption_placeholder' => 'Enkripsi Email',
 
                     'pusher_label' => 'Pusher',
-                    'pusher_app_id_label' => 'Pusher App Id',
-                    'pusher_app_id_palceholder' => 'Pusher App Id',
-                    'pusher_app_key_label' => 'Pusher App Key',
-                    'pusher_app_key_palceholder' => 'Pusher App Key',
-                    'pusher_app_secret_label' => 'Pusher App Secret',
-                    'pusher_app_secret_palceholder' => 'Pusher App Secret',
+                    'pusher_app_id_label' => 'ID Aplikasi Pusher',
+                    'pusher_app_id_palceholder' => 'ID Aplikasi Pusher',
+                    'pusher_app_key_label' => 'Kunci Aplikasi Pusher',
+                    'pusher_app_key_palceholder' => 'Kunci Aplikasi Pusher',
+                    'pusher_app_secret_label' => 'Rahasia Aplikasi Pusher',
+                    'pusher_app_secret_palceholder' => 'Rahasia Aplikasi Pusher',
                 ],
                 'buttons' => [
-                    'setup_database' => 'Setup Database',
-                    'setup_application' => 'Setup Application',
-                    'install' => 'Install',
+                    'setup_database' => 'Atur Basis Data',
+                    'setup_application' => 'Atur Aplikasi',
+                    'install' => 'Pasang',
                 ],
             ],
         ],
         'classic' => [
-            'templateTitle' => 'Step 3 | Environment Settings | Classic Editor',
-            'title' => 'Classic Environment Editor',
-            'save' => 'Save .env',
-            'back' => 'Use Form Wizard',
-            'install' => 'Save and Install',
+            'templateTitle' => 'Langkah 3 | Pengaturan Lingkungan | Editor Klasik',
+            'title' => 'Editor Lingkungan Klasik',
+            'save' => 'Simpan .env',
+            'back' => 'Gunakan Wizard Formulir',
+            'install' => 'Simpan dan Pasang',
         ],
-        'success' => 'Your .env file settings have been saved.',
-        'errors' => 'Unable to save the .env file, Please create it manually.',
+        'success' => 'Pengaturan file .env Anda telah disimpan.',
+        'errors' => 'Tidak dapat menyimpan file .env, Harap buat secara manual.',
     ],
 
-    'install' => 'Install',
+    'install' => 'Pasang',
 
     /*
      *
-     * Installed Log translations.
+     * Terjemahan log pemasangan.
      *
      */
     'installed' => [
-        'success_log_message' => 'Laravel Installer successfully INSTALLED on ',
+        'success_log_message' => 'Instalasi Laravel berhasil DIPASANG pada ',
     ],
 
     /*
      *
-     * Final page translations.
+     * Terjemahan halaman akhir.
      *
      */
     'final' => [
-        'title' => 'Installation Finished',
-        'templateTitle' => 'Installation Finished',
-        'finished' => 'Application has been successfully installed.',
-        'migration' => 'Migration &amp; Seed Console Output:',
-        'console' => 'Application Console Output:',
-        'log' => 'Installation Log Entry:',
-        'env' => 'Final .env File:',
-        'exit' => 'Click here to exit',
+        'title' => 'Instalasi Selesai',
+        'templateTitle' => 'Instalasi Selesai',
+        'finished' => 'Aplikasi telah berhasil dipasang.',
+        'migration' => 'Output Konsol Migrasi &amp; Seed:',
+        'console' => 'Output Konsol Aplikasi:',
+        'log' => 'Entri Log Instalasi:',
+        'env' => 'File .env Akhir:',
+        'exit' => 'Klik di sini untuk keluar',
     ],
 
     /*
      *
-     * Update specific translations
+     * Terjemahan khusus pembaruan
      *
      */
     'updater' => [
-        /*
-         *
-         * Shared translations.
-         *
-         */
-        'title' => 'Laravel Updater',
+        'title' => 'Pembaruan Laravel',
 
-        /*
-         *
-         * Welcome page translations for update feature.
-         *
-         */
         'welcome' => [
-            'title'   => 'Welcome To The Updater',
-            'message' => 'Welcome to the update wizard.',
+            'title'   => 'Selamat Datang di Pembaru',
+            'message' => 'Selamat datang di wizard pembaruan.',
         ],
 
-        /*
-         *
-         * Welcome page translations for update feature.
-         *
-         */
         'overview' => [
-            'title'   => 'Overview',
-            'message' => 'There is 1 update.|There are :number updates.',
-            'install_updates' => 'Install Updates',
+            'title'   => 'Ringkasan',
+            'message' => 'Ada 1 pembaruan.|Ada :number pembaruan.',
+            'install_updates' => 'Pasang Pembaruan',
         ],
 
-        /*
-         *
-         * Final page translations.
-         *
-         */
         'final' => [
-            'title' => 'Finished',
-            'finished' => 'Application\'s database has been successfully updated.',
-            'exit' => 'Click here to exit',
+            'title' => 'Selesai',
+            'finished' => 'Basis data aplikasi berhasil diperbarui.',
+            'exit' => 'Klik di sini untuk keluar',
         ],
 
         'log' => [
-            'success_message' => 'Laravel Installer successfully UPDATED on ',
+            'success_message' => 'Pembaruan Laravel berhasil DIPERBARUI pada ',
         ],
     ],
 ];

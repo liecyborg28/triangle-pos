@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Register | {{ config('app.name') }}</title>
+    <title>Daftar | {{ config('app.name') }}</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('images/favicon.png') }}">
+    <!-- <link rel="icon" href="{{ asset('images/favicon.png') }}"> -->
     <!-- CoreUI CSS -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
@@ -22,8 +22,8 @@
                 <div class="card-body p-4">
                     <form method="post" action="{{ url('/register') }}">
                         @csrf
-                        <h1>Register</h1>
-                        <p class="text-muted">Create your account</p>
+                        <h1>Pendaftaran Akun</h1>
+                        <p class="text-muted">Daftar Akun</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">

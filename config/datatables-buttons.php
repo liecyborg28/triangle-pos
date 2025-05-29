@@ -62,7 +62,7 @@ return [
                                 <'row'<'col-md-5'i><'col-md-7 mt-2'p>>",
         'order'   => [[0, 'desc']],
         'buttons' => [
-            'excel',
+            // 'excel',
             'print',
             'reset',
             'reload',
@@ -81,7 +81,8 @@ return [
         /*
          * Default buttons to generate when not set.
          */
-        'buttons' => 'excel,print,reset,reload',
+        // 'excel,print,reset,reload'
+        'buttons' => 'print,reset,reload',
 
         /*
          * Default DOM to generate when not set.
