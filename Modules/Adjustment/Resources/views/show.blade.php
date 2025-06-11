@@ -24,10 +24,10 @@
                             <table class="table table-bordered">
                                 <tr>
                                     <th colspan="2">
-                                        Date
+                                        Tanggal
                                     </th>
                                     <th colspan="2">
-                                        Reference
+                                        Referensi
                                     </th>
                                 </tr>
                                 <tr>
@@ -40,10 +40,10 @@
                                 </tr>
 
                                 <tr>
-                                    <th>Product Name</th>
-                                    <th>Code</th>
-                                    <th>Quantity</th>
-                                    <th>Type</th>
+                                    <th>Nama Produk</th>
+                                    <th>Kode</th>
+                                    <th>Stok</th>
+                                    <th>Tipe</th>
                                 </tr>
 
                                 @foreach($adjustment->adjustedProducts as $adjustedProduct)
