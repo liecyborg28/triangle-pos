@@ -40,10 +40,10 @@
                                 </tr>
 
                                 <tr>
-                                    <th>Nama Produk</th>
-                                    <th>Kode</th>
-                                    <th>Stok</th>
-                                    <th>Tipe</th>
+                                    <th>Product Name</th>
+                                    <th>Code</th>
+                                    <th>Quantity</th>
+                                    <th>Type</th>
                                 </tr>
 
                                 @foreach($adjustment->adjustedProducts as $adjustedProduct)

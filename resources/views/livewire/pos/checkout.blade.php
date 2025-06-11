@@ -14,7 +14,7 @@
                 @endif
 
                 <div class="form-group">
-                    <label for="customer_id">Customer <span class="text-danger">*</span></label>
+                    <label for="customer_id">Pelanggan <span class="text-danger">*</span></label>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <a href="{{ route('customers.create') }}" class="btn btn-primary">
@@ -22,7 +22,7 @@
                             </a>
                         </div>
                         <select wire:model.live="customer_id" id="customer_id" class="form-control">
-                            <option value="" selected>Select Customer</option>
+                            <option value="" selected>Pilih Pelanggan</option>
                             @foreach($customers as $customer)
                                 <option value="{{ $customer->id }}">{{ $customer->customer_name }}</option>
                             @endforeach
@@ -34,10 +34,10 @@
                     <table class="table">
                         <thead>
                         <tr class="text-center">
-                            <th class="align-middle">Product</th>
-                            <th class="align-middle">Price</th>
-                            <th class="align-middle">Quantity</th>
-                            <th class="align-middle">Action</th>
+                            <th class="align-middle">Produk</th>
+                            <th class="align-middle">Harga</th>
+                            <th class="align-middle">Jumlah</th>
+                            <th class="align-middle">Menu</th>
                         </tr>
                         </thead>
                         <tbody>
